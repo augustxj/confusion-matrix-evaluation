@@ -44,14 +44,35 @@ This project demonstrates the calculation and comparison of classification model
 
 ## How to Run the Notebook
 
-1. Install required dependencies:
+### Option 1: Run on Google Colab
+You can run this notebook directly on Google Colab:
+1. Navigate to the `model_evaluation_comparison.ipynb` file in this repository.
+2. Click on the **"Open in Colab"** button at the top of the file.
+
+This will open the notebook in Google Colab, where you can run it without additional setup.
+
+### Option 2: Clone the Repository and Run Locally
+To run the notebook locally:
+1. Clone the repository using the following command:
    ```bash
-   pip install numpy scikit-learn matplotlib xgboost pandas
+   git clone <repository_url>
    ```
-2. Open the notebook and execute the cells sequentially:
+2. Navigate to the project directory:
+   ```bash
+   cd <repository_folder>
+   ```
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Launch the Jupyter Notebook:
    ```bash
    jupyter notebook model_evaluation_comparison.ipynb
    ```
+5. Open the notebook in your browser and execute the cells sequentially.
+
+This gives you the flexibility to modify the code and explore the results at your own pace.
+
 
 ## Results
 
